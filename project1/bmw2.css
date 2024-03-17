@@ -1,0 +1,204 @@
+body{
+    background: url("R\ \(11\).jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.kontejner{
+    display: flex;
+}
+.kartica1{
+    height: 250px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    border: 3px solid white;
+    animation-name: m8;
+    animation-duration: 3s;
+}
+.kartica2{
+    height: 250px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    border: 3px solid white;
+    animation-name: m3;
+    animation-duration: 3s;
+}
+.kartica3{
+    height: 250px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    border: 3px solid white;
+    animation-name: i4;
+    animation-duration: 3s;
+}
+.img1{
+    height: 300px;
+    width: 400px;
+}
+.img2{
+    height: 250px;
+    width: 400px;
+}
+.img3{
+    height: 250px;
+    width: 400px;
+}
+.opis1{
+    height: 70px;
+    width: 400px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 223px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    animation-name: o1;
+    animation-duration: 3s;
+}
+.opis2{
+    height: 70px;
+    width: 400px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 223px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    animation-name: o2;
+    animation-duration: 3s;
+}
+.opis3{
+    height: 70px;
+    width: 400px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 223px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    animation-name: o3;
+    animation-duration: 3s;
+}
+h2{
+    margin: 10px;
+    font-size: 30px;
+}
+p{
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+    font-size: small;
+}
+span{
+    font-weight: bold;
+}
+.kartica1:hover{
+    cursor: pointer;
+}
+.kartica2:hover{
+    cursor: pointer;
+}
+.kartica3:hover{
+    cursor: pointer;
+}
+.kartica1:hover .opis1{
+    background: rgb(0, 0, 0, 0.75);
+    height: 250px;
+    bottom: 224px;
+}
+.kartica2:hover .opis2{
+    background: rgb(0, 0, 0, 0.75);
+    height: 250px;
+    bottom: 224px;
+}
+.kartica3:hover .opis3{
+    background: rgb(0, 0, 0, 0.75);
+    height: 250px;
+    bottom: 224px;
+}
+.kartica1:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.kartica2:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.kartica3:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+@keyframes m3{
+    0% {
+        transform: translateX(300vh);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes i4{
+    0% {
+        transform: translateX(300vh);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes m8{
+    0% {
+        transform: translateX(300vh);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes o1{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes o2{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes o3{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}

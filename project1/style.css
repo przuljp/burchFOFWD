@@ -1,0 +1,160 @@
+body{
+    background: #081b29;
+    background-size: cover;
+}
+.kodfun-galeri1{
+    display: flex;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    top: 35px;
+    left: 10%;
+    gap: 0.2rem;
+    border: 3px solid white;
+    background: white;
+}
+.kodfun-galeri1::before{
+    content: '';
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    background: #081b29;
+    animation: audi 1s ease forwards;
+}
+.kodfun-galeri1 > div{
+    flex: 1;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.kodfun-galeri1 > div:hover{
+    flex: 5;
+}
+.kodfun-galeri2{
+    display: flex;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    top: 375px;
+    left: 10%;
+    gap: 0.2rem;
+    border: 3px solid white;
+    background: white;
+}
+.kodfun-galeri2::before{
+    content: '';
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    background: #081b29;
+    animation: audi 1s ease forwards;
+    animation-delay: .5s;
+}
+.kodfun-galeri2 > div{
+    flex: 1;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.kodfun-galeri2 > div:hover{
+    flex: 5;
+}
+.kodfun-galeri3{
+    display: flex;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    top: 250px;
+    left: 39%;
+    gap: 0.2rem;
+    border: 3px solid white;
+    background: white;
+}
+.kodfun-galeri3::before{
+    content: '';
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    background: #081b29;
+    animation: audi 1s ease forwards;
+    animation-delay: 1s;
+}
+.kodfun-galeri3 > div{
+    flex: 1;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.kodfun-galeri3 > div:hover{
+    flex: 5;
+}
+.kodfun-galeri4{
+    display: flex;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    top: 35px;
+    left: 67%;
+    gap: 0.2rem;
+    border: 3px solid white;
+    background: white;
+}
+.kodfun-galeri4::before{
+    content: '';
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    background: #081b29;
+    animation: audi 1s ease forwards;
+    animation-delay: 1.5s;
+}
+.kodfun-galeri4 > div{
+    flex: 1;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.kodfun-galeri4 > div:hover{
+    flex: 5;
+}
+.kodfun-galeri5{
+    display: flex;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    top: 375px;
+    left: 67%;
+    gap: 0.2rem;
+    border: 3px solid white;
+    background: white;
+}
+.kodfun-galeri5::before{
+    content: '';
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    background: #081b29;
+    animation: audi 1s ease forwards;
+    animation-delay: 2s;
+}
+.kodfun-galeri5 > div{
+    flex: 1;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.kodfun-galeri5 > div:hover{
+    flex: 5;
+}
+@keyframes audi{
+    100%{
+        width: 0;
+    }
+}
+a{
+    opacity: 0;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 40px;
+    padding-left: 5px;
+}
